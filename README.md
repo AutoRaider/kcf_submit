@@ -27,7 +27,7 @@ sudo apt install swig python3-dev
 
 下载opencv-swig
 
-make目录下的test可获取相应python调用的.so文件 可根据需要选择使用相应的数据类型 将所需.so拷贝至src
+make目录下的test可获取相应python调用的.so文件 可根据需要选择使用相应的数据类型 将所需.so和.py拷贝至src
 
 我在kcf_submit/src下提供了另一种方法: 
 
