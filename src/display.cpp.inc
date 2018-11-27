@@ -8,7 +8,7 @@
 #include <unistd.h>
 
 #include <va/va.h>
-# include <va/va_drm.h>
+#include <va/va_drm.h>
 
 namespace va {
 

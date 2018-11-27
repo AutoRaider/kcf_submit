@@ -88,23 +88,24 @@ cv::Rect GetRoi()
 
 int main(int argc, char* argv[])
 {
-        GetInput();
+	GetInput();
         
 	KCFTracker* tracking = new KCFTracker();
 	if (files.size()!=0)
 	{
-            UMat orig_image = imread(files[0]).getUMat( ACCESS_READ );
+        Mat orig_image = imread(files[0]);
+
 	    cv::Rect roi = GetRoi();
 	    tracking->init(roi, orig_image);
 	
 	    for (std::vector<string>::iterator it=files.begin()+1; it!=files.end(); ++it)
 	    {
-                cout<<*it<<endl;
-                orig_image = imread(*it).getUMat( ACCESS_READ );
-		tracking->update(orig_image);
+			cout<<*it<<endl;
+			orig_image = imread(*it);
+			tracking->update(orig_image);
 	    }
         
-        }
+    }
 	//std::cout << "Average speed " << average_speed_ms / tracking->GetFrameNO() << "ms. (" << 1000.0 / (average_speed_ms / tracking->GetFrameNO()) << "fps)" << std::endl;
 	delete tracking;
 

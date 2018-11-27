@@ -24,7 +24,7 @@ Default values are set for all properties of the tracker depending on the above 
 Their values can be customized further before calling init():
     interp_factor: linear interpolation factor for adaptation
     sigma: gaussian kernel bandwidth
-    lambda: regularization
+    _lambda: regularization
     cell_size: HOG cell size
     padding: horizontal area surrounding the target, relative to its size
     output_sigma_factor: bandwidth of gaussian target
@@ -161,14 +161,14 @@ public:
     KCFTracker(bool hog = true, bool fixed_window = true, bool multiscale = true, bool lab = true);
     ~KCFTracker();
     // Initialize tracker 
-    virtual void init(const cv::Rect &roi, cv::UMat image);
+    virtual void init(const cv::Rect &roi, cv::Mat orig_image);
     
     // Update position based on the new frame
-    virtual cv::Rect update(cv::UMat image);
+    virtual cv::Rect update(cv::Mat orig_image);
 
     float interp_factor; // linear interpolation factor for adaptation
     float sigma; // gaussian kernel bandwidth
-    float lambda; // regularization
+    float _lambda; // regularization
     int cell_size; // HOG cell size
     int cell_sizeQ; // cell size^2, to avoid repeated operations
     float padding; // extra area surrounding the target
@@ -179,7 +179,7 @@ public:
 
    //Global resource for MDF
    static CmDevice* pCmDev;
-   static void * pCLDev;
+   //static void * pCLDev;
 
 protected:
     // Detect object in the current frame.
