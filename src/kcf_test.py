@@ -4,9 +4,11 @@ import numpy as np
 import kcftracker
 import matplotlib.pyplot as plt
 import skimage.io as io
+import os
 
-image_path = '/home/lancer/kcf_submit/test_data/traffic/*.jpg'
-groundtruth_path = '/home/lancer/kcf_submit/test_data/traffic/groundtruth.txt'
+origin = os.path.abspath(os.path.dirname(os.getcwd()))
+image_path = origin + '/test_data/traffic/*.jpg'
+groundtruth_path = origin + '/test_data/traffic/groundtruth.txt'
 
 def GetInput():
 	image_rgb = io.ImageCollection(image_path)
