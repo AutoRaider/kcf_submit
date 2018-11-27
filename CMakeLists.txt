@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 2.8)
 project (GPU_KCF)
 
 #opencv should be re-built with OPENCL, VA and VA_Intel 
-set(OPENCV_INCLUDE /home/iotg-demo/opencv/build/include)
-set(OPENCV_LIB /home/iotg-demo/opencv/build/lib)
+set(OPENCV_INCLUDE /home/lancer/opencv/build/include)
+set(OPENCV_LIB /home/lancer/opencv/build/lib)
 
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -g -O0 -I${CMAKE_SOURCE_DIR}/runtime/include -I/usr/include/python3.5m -I${OPENCV_INCLUDE} ")

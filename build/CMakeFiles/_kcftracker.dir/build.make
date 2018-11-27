@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iotg-demo/GPU_KCF
+CMAKE_SOURCE_DIR = /home/lancer/kcf_submit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iotg-demo/GPU_KCF/build
+CMAKE_BINARY_DIR = /home/lancer/kcf_submit/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/_kcftracker.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/_kcftracker.dir/flags.make
 
 CMakeFiles/_kcftracker.dir/src/intelscalar.cpp.o: CMakeFiles/_kcftracker.dir/flags.make
 CMakeFiles/_kcftracker.dir/src/intelscalar.cpp.o: ../src/intelscalar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iotg-demo/GPU_KCF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/_kcftracker.dir/src/intelscalar.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_kcftracker.dir/src/intelscalar.cpp.o -c /home/iotg-demo/GPU_KCF/src/intelscalar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lancer/kcf_submit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/_kcftracker.dir/src/intelscalar.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_kcftracker.dir/src/intelscalar.cpp.o -c /home/lancer/kcf_submit/src/intelscalar.cpp
 
 CMakeFiles/_kcftracker.dir/src/intelscalar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_kcftracker.dir/src/intelscalar.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iotg-demo/GPU_KCF/src/intelscalar.cpp > CMakeFiles/_kcftracker.dir/src/intelscalar.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lancer/kcf_submit/src/intelscalar.cpp > CMakeFiles/_kcftracker.dir/src/intelscalar.cpp.i
 
 CMakeFiles/_kcftracker.dir/src/intelscalar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_kcftracker.dir/src/intelscalar.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iotg-demo/GPU_KCF/src/intelscalar.cpp -o CMakeFiles/_kcftracker.dir/src/intelscalar.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lancer/kcf_submit/src/intelscalar.cpp -o CMakeFiles/_kcftracker.dir/src/intelscalar.cpp.s
 
 CMakeFiles/_kcftracker.dir/src/intelscalar.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/_kcftracker.dir/src/intelscalar.cpp.o.provides.build: CMakeFiles/_kcf
 
 CMakeFiles/_kcftracker.dir/src/SetupSurface.cpp.o: CMakeFiles/_kcftracker.dir/flags.make
 CMakeFiles/_kcftracker.dir/src/SetupSurface.cpp.o: ../src/SetupSurface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iotg-demo/GPU_KCF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/_kcftracker.dir/src/SetupSurface.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_kcftracker.dir/src/SetupSurface.cpp.o -c /home/iotg-demo/GPU_KCF/src/SetupSurface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lancer/kcf_submit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/_kcftracker.dir/src/SetupSurface.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_kcftracker.dir/src/SetupSurface.cpp.o -c /home/lancer/kcf_submit/src/SetupSurface.cpp
 
 CMakeFiles/_kcftracker.dir/src/SetupSurface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_kcftracker.dir/src/SetupSurface.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iotg-demo/GPU_KCF/src/SetupSurface.cpp > CMakeFiles/_kcftracker.dir/src/SetupSurface.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lancer/kcf_submit/src/SetupSurface.cpp > CMakeFiles/_kcftracker.dir/src/SetupSurface.cpp.i
 
 CMakeFiles/_kcftracker.dir/src/SetupSurface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_kcftracker.dir/src/SetupSurface.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iotg-demo/GPU_KCF/src/SetupSurface.cpp -o CMakeFiles/_kcftracker.dir/src/SetupSurface.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lancer/kcf_submit/src/SetupSurface.cpp -o CMakeFiles/_kcftracker.dir/src/SetupSurface.cpp.s
 
 CMakeFiles/_kcftracker.dir/src/SetupSurface.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/_kcftracker.dir/src/SetupSurface.cpp.o.provides.build: CMakeFiles/_kc
 
 CMakeFiles/_kcftracker.dir/src/fhog.cpp.o: CMakeFiles/_kcftracker.dir/flags.make
 CMakeFiles/_kcftracker.dir/src/fhog.cpp.o: ../src/fhog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iotg-demo/GPU_KCF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/_kcftracker.dir/src/fhog.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_kcftracker.dir/src/fhog.cpp.o -c /home/iotg-demo/GPU_KCF/src/fhog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lancer/kcf_submit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/_kcftracker.dir/src/fhog.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_kcftracker.dir/src/fhog.cpp.o -c /home/lancer/kcf_submit/src/fhog.cpp
 
 CMakeFiles/_kcftracker.dir/src/fhog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_kcftracker.dir/src/fhog.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iotg-demo/GPU_KCF/src/fhog.cpp > CMakeFiles/_kcftracker.dir/src/fhog.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lancer/kcf_submit/src/fhog.cpp > CMakeFiles/_kcftracker.dir/src/fhog.cpp.i
 
 CMakeFiles/_kcftracker.dir/src/fhog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_kcftracker.dir/src/fhog.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iotg-demo/GPU_KCF/src/fhog.cpp -o CMakeFiles/_kcftracker.dir/src/fhog.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lancer/kcf_submit/src/fhog.cpp -o CMakeFiles/_kcftracker.dir/src/fhog.cpp.s
 
 CMakeFiles/_kcftracker.dir/src/fhog.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/_kcftracker.dir/src/fhog.cpp.o.provides.build: CMakeFiles/_kcftracker
 
 CMakeFiles/_kcftracker.dir/src/kcftracker.cpp.o: CMakeFiles/_kcftracker.dir/flags.make
 CMakeFiles/_kcftracker.dir/src/kcftracker.cpp.o: ../src/kcftracker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iotg-demo/GPU_KCF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/_kcftracker.dir/src/kcftracker.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_kcftracker.dir/src/kcftracker.cpp.o -c /home/iotg-demo/GPU_KCF/src/kcftracker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lancer/kcf_submit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/_kcftracker.dir/src/kcftracker.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_kcftracker.dir/src/kcftracker.cpp.o -c /home/lancer/kcf_submit/src/kcftracker.cpp
 
 CMakeFiles/_kcftracker.dir/src/kcftracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_kcftracker.dir/src/kcftracker.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iotg-demo/GPU_KCF/src/kcftracker.cpp > CMakeFiles/_kcftracker.dir/src/kcftracker.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lancer/kcf_submit/src/kcftracker.cpp > CMakeFiles/_kcftracker.dir/src/kcftracker.cpp.i
 
 CMakeFiles/_kcftracker.dir/src/kcftracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_kcftracker.dir/src/kcftracker.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iotg-demo/GPU_KCF/src/kcftracker.cpp -o CMakeFiles/_kcftracker.dir/src/kcftracker.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lancer/kcf_submit/src/kcftracker.cpp -o CMakeFiles/_kcftracker.dir/src/kcftracker.cpp.s
 
 CMakeFiles/_kcftracker.dir/src/kcftracker.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/_kcftracker.dir/src/kcftracker.cpp.o.provides.build: CMakeFiles/_kcft
 
 CMakeFiles/_kcftracker.dir/src/main.cpp.o: CMakeFiles/_kcftracker.dir/flags.make
 CMakeFiles/_kcftracker.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iotg-demo/GPU_KCF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/_kcftracker.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_kcftracker.dir/src/main.cpp.o -c /home/iotg-demo/GPU_KCF/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lancer/kcf_submit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/_kcftracker.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_kcftracker.dir/src/main.cpp.o -c /home/lancer/kcf_submit/src/main.cpp
 
 CMakeFiles/_kcftracker.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_kcftracker.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iotg-demo/GPU_KCF/src/main.cpp > CMakeFiles/_kcftracker.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lancer/kcf_submit/src/main.cpp > CMakeFiles/_kcftracker.dir/src/main.cpp.i
 
 CMakeFiles/_kcftracker.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_kcftracker.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iotg-demo/GPU_KCF/src/main.cpp -o CMakeFiles/_kcftracker.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lancer/kcf_submit/src/main.cpp -o CMakeFiles/_kcftracker.dir/src/main.cpp.s
 
 CMakeFiles/_kcftracker.dir/src/main.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/_kcftracker.dir/src/main.cpp.o.provides.build: CMakeFiles/_kcftracker
 
 CMakeFiles/_kcftracker.dir/src/kcftracker_wrap.cxx.o: CMakeFiles/_kcftracker.dir/flags.make
 CMakeFiles/_kcftracker.dir/src/kcftracker_wrap.cxx.o: ../src/kcftracker_wrap.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iotg-demo/GPU_KCF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/_kcftracker.dir/src/kcftracker_wrap.cxx.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_kcftracker.dir/src/kcftracker_wrap.cxx.o -c /home/iotg-demo/GPU_KCF/src/kcftracker_wrap.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lancer/kcf_submit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/_kcftracker.dir/src/kcftracker_wrap.cxx.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_kcftracker.dir/src/kcftracker_wrap.cxx.o -c /home/lancer/kcf_submit/src/kcftracker_wrap.cxx
 
 CMakeFiles/_kcftracker.dir/src/kcftracker_wrap.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_kcftracker.dir/src/kcftracker_wrap.cxx.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iotg-demo/GPU_KCF/src/kcftracker_wrap.cxx > CMakeFiles/_kcftracker.dir/src/kcftracker_wrap.cxx.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lancer/kcf_submit/src/kcftracker_wrap.cxx > CMakeFiles/_kcftracker.dir/src/kcftracker_wrap.cxx.i
 
 CMakeFiles/_kcftracker.dir/src/kcftracker_wrap.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_kcftracker.dir/src/kcftracker_wrap.cxx.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iotg-demo/GPU_KCF/src/kcftracker_wrap.cxx -o CMakeFiles/_kcftracker.dir/src/kcftracker_wrap.cxx.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lancer/kcf_submit/src/kcftracker_wrap.cxx -o CMakeFiles/_kcftracker.dir/src/kcftracker_wrap.cxx.s
 
 CMakeFiles/_kcftracker.dir/src/kcftracker_wrap.cxx.o.requires:
 
@@ -221,7 +221,7 @@ _kcftracker_EXTERNAL_OBJECTS =
 ../src/lib_kcftracker.so: CMakeFiles/_kcftracker.dir/src/kcftracker_wrap.cxx.o
 ../src/lib_kcftracker.so: CMakeFiles/_kcftracker.dir/build.make
 ../src/lib_kcftracker.so: CMakeFiles/_kcftracker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/iotg-demo/GPU_KCF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library ../src/lib_kcftracker.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lancer/kcf_submit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library ../src/lib_kcftracker.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/_kcftracker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -243,6 +243,6 @@ CMakeFiles/_kcftracker.dir/clean:
 .PHONY : CMakeFiles/_kcftracker.dir/clean
 
 CMakeFiles/_kcftracker.dir/depend:
-	cd /home/iotg-demo/GPU_KCF/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iotg-demo/GPU_KCF /home/iotg-demo/GPU_KCF /home/iotg-demo/GPU_KCF/build /home/iotg-demo/GPU_KCF/build /home/iotg-demo/GPU_KCF/build/CMakeFiles/_kcftracker.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lancer/kcf_submit/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lancer/kcf_submit /home/lancer/kcf_submit /home/lancer/kcf_submit/build /home/lancer/kcf_submit/build /home/lancer/kcf_submit/build/CMakeFiles/_kcftracker.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_kcftracker.dir/depend
 

@@ -1,5 +1,3 @@
-import cv2
-# import rect
 import my_rect
 import mat
 import numpy as np
@@ -7,8 +5,8 @@ import kcftracker
 import matplotlib.pyplot as plt
 import skimage.io as io
 
-image_path = '/home/iotg-demo/GPU_KCF/test_data/traffic/*.jpg'
-groundtruth_path = '/home/iotg-demo/GPU_KCF/test_data/traffic/groundtruth.txt'
+image_path = '/home/lancer/kcf_submit/test_data/traffic/*.jpg'
+groundtruth_path = '/home/lancer/kcf_submit/test_data/traffic/groundtruth.txt'
 
 def GetInput():
 	image_rgb = io.ImageCollection(image_path)

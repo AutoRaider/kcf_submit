@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/iotg-demo/GPU_KCF/src/SetupSurface.cpp" "/home/iotg-demo/GPU_KCF/build/CMakeFiles/_kcftracker.dir/src/SetupSurface.cpp.o"
-  "/home/iotg-demo/GPU_KCF/src/fhog.cpp" "/home/iotg-demo/GPU_KCF/build/CMakeFiles/_kcftracker.dir/src/fhog.cpp.o"
-  "/home/iotg-demo/GPU_KCF/src/intelscalar.cpp" "/home/iotg-demo/GPU_KCF/build/CMakeFiles/_kcftracker.dir/src/intelscalar.cpp.o"
-  "/home/iotg-demo/GPU_KCF/src/kcftracker.cpp" "/home/iotg-demo/GPU_KCF/build/CMakeFiles/_kcftracker.dir/src/kcftracker.cpp.o"
-  "/home/iotg-demo/GPU_KCF/src/kcftracker_wrap.cxx" "/home/iotg-demo/GPU_KCF/build/CMakeFiles/_kcftracker.dir/src/kcftracker_wrap.cxx.o"
-  "/home/iotg-demo/GPU_KCF/src/main.cpp" "/home/iotg-demo/GPU_KCF/build/CMakeFiles/_kcftracker.dir/src/main.cpp.o"
+  "/home/lancer/kcf_submit/src/SetupSurface.cpp" "/home/lancer/kcf_submit/build/CMakeFiles/_kcftracker.dir/src/SetupSurface.cpp.o"
+  "/home/lancer/kcf_submit/src/fhog.cpp" "/home/lancer/kcf_submit/build/CMakeFiles/_kcftracker.dir/src/fhog.cpp.o"
+  "/home/lancer/kcf_submit/src/intelscalar.cpp" "/home/lancer/kcf_submit/build/CMakeFiles/_kcftracker.dir/src/intelscalar.cpp.o"
+  "/home/lancer/kcf_submit/src/kcftracker.cpp" "/home/lancer/kcf_submit/build/CMakeFiles/_kcftracker.dir/src/kcftracker.cpp.o"
+  "/home/lancer/kcf_submit/src/kcftracker_wrap.cxx" "/home/lancer/kcf_submit/build/CMakeFiles/_kcftracker.dir/src/kcftracker_wrap.cxx.o"
+  "/home/lancer/kcf_submit/src/main.cpp" "/home/lancer/kcf_submit/build/CMakeFiles/_kcftracker.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
